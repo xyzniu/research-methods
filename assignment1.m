@@ -5,3 +5,6 @@ student_marks = xlsread("StudentMarks.xls");
 histogram(10, student_marks);
 
 %% calculate the mean, variance, and standard deviation of this distribution
+[mean, variance, standard_deviation] = calculation(student_marks);
+
+%% 

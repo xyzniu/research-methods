@@ -13,6 +13,7 @@ function [mean,variance, standard_deviation] = calculation(data)
         variance = variance+power(data(i)-mean, 2);
     end
     
+    variance = variance/length(data);
     standard_deviation = sqrt(variance);
 end
 
