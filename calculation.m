@@ -1,6 +1,6 @@
 function [mean,variance, standard_deviation] = calculation(data)
-%CALCULATION Summary of this function goes here
-%   Detailed explanation goes here
+% CALCULATION 
+% calculate the mean, variance, and the standard deviation of the data 
     sum = 0;
     variance = 0;
     
